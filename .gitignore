@@ -1,0 +1,6 @@
+# Gradle / IDE 빌드 산출물 (소스만 추적)
+.gradle/
+build/
+**/build/
+.idea/
+.DS_Store
