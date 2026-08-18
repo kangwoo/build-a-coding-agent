@@ -28,6 +28,7 @@ ch03/
 렌더링을 `render`에 가둔 보상으로, "텍스트 → 화면 글자" 변환만 더미 터미널(`DumbTerminal`)로 떼어 검증한다. `Repl`(네트워크·키 필요)은 5장에서 페이크 `LlmClient`로 테스트 가능해진다.
 
 ```bash
+cd ch03
 ./gradlew test
 ```
 

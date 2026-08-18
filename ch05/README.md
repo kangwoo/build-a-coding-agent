@@ -35,6 +35,7 @@ ch05/
 ## 테스트 (API 키 불필요)
 
 ```bash
+cd ch05
 ./gradlew test          # agent-core(6) + agent-cli(5) = 11개 테스트
 ```
 

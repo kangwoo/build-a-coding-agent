@@ -21,6 +21,7 @@ ch02/
 진짜 OpenAI 서버 대신 JDK 내장 `HttpServer`로 로컬 스텁을 띄워 왕복 전체를 검증한다. 네트워크·비용·키가 모두 필요 없다.
 
 ```bash
+cd ch02
 ./gradlew test
 ```
 

@@ -38,6 +38,7 @@ ch04/
 ## 테스트 (API 키 불필요)
 
 ```bash
+cd ch04
 ./gradlew test          # agent-core(4) + agent-cli(5) = 9개 테스트
 ```
 
