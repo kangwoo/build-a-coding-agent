@@ -1,6 +1,6 @@
 # 11장 코드 — 코드베이스 탐색(Glob/Grep)과 웹 도구
 
-[`chapters/11-코드베이스-탐색과-웹-도구.md`](../../chapters/11-코드베이스-탐색과-웹-도구.md)의 산출물. `ripgrep`을 외부 프로세스로 부르는 **`GlobTool`(파일명)·`GrepTool`(내용)**, 그리고 같은 "외부 호출" 골격 위의 **`WebFetchTool`**·`SearchBackend`. 이 외부 프로세스 패턴은 15장 Bash의 토대다.
+책 11장의 산출물. `ripgrep`을 외부 프로세스로 부르는 **`GlobTool`(파일명)·`GrepTool`(내용)**, 그리고 같은 "외부 호출" 골격 위의 **`WebFetchTool`**·`SearchBackend`. 이 외부 프로세스 패턴은 15장 Bash의 토대다.
 
 ```
 ch11/                                           # ch10 위에 누적

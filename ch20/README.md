@@ -1,6 +1,6 @@
 # 20장 코드 — append-only JSONL 영속성과 세션 복원
 
-[`chapters/20-세션-상태-영속성.md`](../../chapters/20-세션-상태-영속성.md)의 산출물. 대화를 **append-only JSONL**로 디스크에 한 줄씩 쌓고, 재시작 후 `--resume`으로 이전 세션을 이어 간다. 12장에 비워 둔 `AgentServices` 이음매의 마지막 칸을 영속성(`TranscriptStore`)으로 채워, 엔진이 메시지를 추가할 때마다 기록하고 시작 시 복원한다. 세션 정체성(`SessionContext`)은 `sessionId`와 `projectDir`를 한 덩어리로 원자적으로 다룬다.
+책 20장의 산출물. 대화를 **append-only JSONL**로 디스크에 한 줄씩 쌓고, 재시작 후 `--resume`으로 이전 세션을 이어 간다. 12장에 비워 둔 `AgentServices` 이음매의 마지막 칸을 영속성(`TranscriptStore`)으로 채워, 엔진이 메시지를 추가할 때마다 기록하고 시작 시 복원한다. 세션 정체성(`SessionContext`)은 `sessionId`와 `projectDir`를 한 덩어리로 원자적으로 다룬다.
 
 ```
 ch20/                                           # ch19 위에 누적

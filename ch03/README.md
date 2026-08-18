@@ -1,6 +1,6 @@
 # 3장 코드 — JLine 대화형 셸(REPL)과 첫 대화
 
-[`chapters/03-JLine-대화형-셸-골격.md`](../../chapters/03-JLine-대화형-셸-골격.md)의 산출물. 2장의 `OpenAiChat`을 **JLine REPL** 위에 얹어 멀티턴(비스트리밍) 대화를 주고받는다. 정식 진입점이 `agent.cli.Main`으로 옮겨졌다.
+책 3장의 산출물. 2장의 `OpenAiChat`을 **JLine REPL** 위에 얹어 멀티턴(비스트리밍) 대화를 주고받는다. 정식 진입점이 `agent.cli.Main`으로 옮겨졌다.
 
 ```
 ch03/

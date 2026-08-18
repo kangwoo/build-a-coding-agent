@@ -1,6 +1,6 @@
 # 4장 코드 — 프로젝트 골격과 메시지 도메인 모델링
 
-[`chapters/04-프로젝트-골격과-메시지-도메인.md`](../../chapters/04-프로젝트-골격과-메시지-도메인.md)의 산출물. 3장까지 `List<Map<String,String>>`로 들고 다니던 대화를 진짜 **타입**(`Message`/`ContentBlock`/`Usage`)으로 승격하고, 프로젝트를 **멀티모듈**(`agent-core` + `agent-cli`)로 정리한다.
+책 4장의 산출물. 3장까지 `List<Map<String,String>>`로 들고 다니던 대화를 진짜 **타입**(`Message`/`ContentBlock`/`Usage`)으로 승격하고, 프로젝트를 **멀티모듈**(`agent-core` + `agent-cli`)로 정리한다.
 
 ```
 ch04/

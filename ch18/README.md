@@ -1,6 +1,6 @@
 # 18장 코드 — 시스템 프롬프트 조립과 컨텍스트 주입
 
-[`chapters/18-시스템-프롬프트-조립.md`](../../chapters/18-시스템-프롬프트-조립.md)의 산출물. 시스템 프롬프트를 한 줄로 때우던 것을 **섹션(`PromptSection`) 조립**으로 바꾼다. 정체성·행동 규칙·도구 사용법(정적)을 앞에, 환경 정보(`EnvInfo`: cwd·git·OS·모델)를 동적 경계 뒤에 두어 OpenAI 자동 프리픽스 캐싱이 적중할 순서를 지킨다. 경계는 `SystemBlock` 리스트로 `LlmRequest.system`까지 실려 가(5장 약속 이행) 24장 Anthropic이 마지막 정적 블록에 캐시 마커를 찍는 근거가 된다. 자주 바뀌는 `AGENT.md`·날짜는 시스템 프롬프트가 아니라 첫 `<system-reminder>` user 메시지(`ProjectContext`)로 주입해 프리픽스 안정성을 지킨다.
+책 18장의 산출물. 시스템 프롬프트를 한 줄로 때우던 것을 **섹션(`PromptSection`) 조립**으로 바꾼다. 정체성·행동 규칙·도구 사용법(정적)을 앞에, 환경 정보(`EnvInfo`: cwd·git·OS·모델)를 동적 경계 뒤에 두어 OpenAI 자동 프리픽스 캐싱이 적중할 순서를 지킨다. 경계는 `SystemBlock` 리스트로 `LlmRequest.system`까지 실려 가(5장 약속 이행) 24장 Anthropic이 마지막 정적 블록에 캐시 마커를 찍는 근거가 된다. 자주 바뀌는 `AGENT.md`·날짜는 시스템 프롬프트가 아니라 첫 `<system-reminder>` user 메시지(`ProjectContext`)로 주입해 프리픽스 안정성을 지킨다.
 
 ```
 ch18/                                  # ch17 위에 누적

@@ -1,6 +1,6 @@
 # 22장 코드 — 스킬 시스템: 마크다운으로 정의하는 재사용 능력
 
-[`chapters/22-스킬-시스템.md`](../../chapters/22-스킬-시스템.md)의 산출물. `SKILL.md`(YAML frontmatter + 본문)로 정의한 능력을 발견해, 모델이 `SkillTool`로 호출하면 본문이 현재 대화로 확장된다. 핵심은 **발견과 실행의 분리** — 평소엔 이름+설명만 보이고, 본문(수백 줄)은 호출 시점에야 로드한다. 21장 `PromptCommand` 위에 얹고, frontmatter 파싱용으로 SnakeYAML 의존성이 들어온다.
+책 22장의 산출물. `SKILL.md`(YAML frontmatter + 본문)로 정의한 능력을 발견해, 모델이 `SkillTool`로 호출하면 본문이 현재 대화로 확장된다. 핵심은 **발견과 실행의 분리** — 평소엔 이름+설명만 보이고, 본문(수백 줄)은 호출 시점에야 로드한다. 21장 `PromptCommand` 위에 얹고, frontmatter 파싱용으로 SnakeYAML 의존성이 들어온다.
 
 ```
 ch22/                                          # ch21 위에 누적

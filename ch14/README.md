@@ -1,6 +1,6 @@
 # 14장 코드 — 취소와 인터럽트: 계층적 CancellationToken
 
-[`chapters/14-취소와-인터럽트.md`](../../chapters/14-취소와-인터럽트.md)의 산출물. 5장에서 뼈대만 둔 `CancellationToken`을 **부모-자식 트리**(reason·정리 콜백)로 키우고, JLine의 Ctrl+C와 연결한다. 핵심은 멈춰도 불변식을 지키는 것 — 취소된 도구에도 합성 `tool_result`를 채워 다음 모델 호출이 깨지지 않게 한다.
+책 14장의 산출물. 5장에서 뼈대만 둔 `CancellationToken`을 **부모-자식 트리**(reason·정리 콜백)로 키우고, JLine의 Ctrl+C와 연결한다. 핵심은 멈춰도 불변식을 지키는 것 — 취소된 도구에도 합성 `tool_result`를 채워 다음 모델 호출이 깨지지 않게 한다.
 
 ```
 ch14/                                    # ch13 위에 누적

@@ -1,6 +1,6 @@
 # 24장 코드 — 멀티 Provider 완성(Anthropic·Gemini 합류)
 
-[`chapters/24-멀티-Provider-완성.md`](../../chapters/24-멀티-Provider-완성.md)의 산출물. 5장에서 세운 `LlmClient` SPI(OpenAI 기준) 위에 `AnthropicClient`·`GeminiClient`를 얹어, `--provider`만 바꾸면 같은 에이전트가 세 백엔드에서 돈다. 핵심은 기존 `agent-core`를 **한 줄도 안 고치고** 두 provider를 끼운다는 것이다 — 새 코드는 `llm/anthropic`·`llm/gemini` 구현뿐이고, 유일한 변경은 `agent-cli`의 `LlmClients` 팩토리 배선이다. 이 책의 **네 번째이자 마지막 마일스톤**(완성형)으로, `./gradlew run`으로 돌려본다.
+책 24장의 산출물. 5장에서 세운 `LlmClient` SPI(OpenAI 기준) 위에 `AnthropicClient`·`GeminiClient`를 얹어, `--provider`만 바꾸면 같은 에이전트가 세 백엔드에서 돈다. 핵심은 기존 `agent-core`를 **한 줄도 안 고치고** 두 provider를 끼운다는 것이다 — 새 코드는 `llm/anthropic`·`llm/gemini` 구현뿐이고, 유일한 변경은 `agent-cli`의 `LlmClients` 팩토리 배선이다. 이 책의 **네 번째이자 마지막 마일스톤**(완성형)으로, `./gradlew run`으로 돌려본다.
 
 ```
 ch24/                                          # ch23 위에 누적

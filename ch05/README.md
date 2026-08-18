@@ -1,6 +1,6 @@
 # 5장 코드 — LLM Provider 추상화
 
-[`chapters/05-LLM-Provider-추상화.md`](../../chapters/05-LLM-Provider-추상화.md)의 산출물. 2장의 `OpenAiChat` 스파이크를 **provider-중립 `LlmClient` SPI**와 그 기준 구현 **`OpenAiClient`**로 승격한다. REPL이 회사별 API가 아니라 `LlmClient` 인터페이스 하나에만 의존한다(비스트리밍 `create()`; 스트리밍은 6장).
+책 5장의 산출물. 2장의 `OpenAiChat` 스파이크를 **provider-중립 `LlmClient` SPI**와 그 기준 구현 **`OpenAiClient`**로 승격한다. REPL이 회사별 API가 아니라 `LlmClient` 인터페이스 하나에만 의존한다(비스트리밍 `create()`; 스트리밍은 6장).
 
 ```
 ch05/

@@ -1,6 +1,6 @@
 # 10장 코드 — 파일 쓰기·편집과 Read-before-Write 안전 모델
 
-[`chapters/10-파일-쓰기-편집과-안전모델.md`](../../chapters/10-파일-쓰기-편집과-안전모델.md)의 산출물. `WriteTool`(전체 쓰기)과 `EditTool`(정확한 부분 치환)을 만들되, 이 장의 절반은 "**언제 쓰면 안 되는지**"다 — 9장 `FileStateCache`를 진실원으로 한 **Read 선행 + staleness** 안전 모델.
+책 10장의 산출물. `WriteTool`(전체 쓰기)과 `EditTool`(정확한 부분 치환)을 만들되, 이 장의 절반은 "**언제 쓰면 안 되는지**"다 — 9장 `FileStateCache`를 진실원으로 한 **Read 선행 + staleness** 안전 모델.
 
 ```
 ch10/                                          # ch09 위에 누적
